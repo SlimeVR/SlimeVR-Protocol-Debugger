@@ -1,0 +1,40 @@
+{
+  "name": "@slimevr/firmware-protocol-debugger",
+  "version": "0.1.1",
+  "main": "dist/index.js",
+  "license": "(MIT OR Apache-2.0)",
+  "homepage": "https://github.com/SlimeVR/slimevr.ts.git/tree/master/apps/firmware-protocol-debugger",
+  "author": {
+    "name": "TheDevMinerTV",
+    "email": "tobigames200@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SlimeVR/slimevr.ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SlimeVR/slimevr.ts/issues"
+  },
+  "bin": {
+    "slimevr-firmware-protocol-debugger": "src/bin/index"
+  },
+  "dependencies": {
+    "@slimevr/common": "*",
+    "@slimevr/firmware-protocol": "*"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.45",
+    "@typescript-eslint/eslint-plugin": "5.30.6",
+    "@typescript-eslint/parser": "5.30.6",
+    "eslint": "8.20.0",
+    "typescript": "4.7.4"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

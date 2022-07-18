@@ -12,3 +12,9 @@ jobs:
 
       - name: Lint
         run: yarn lint
+
+      - name: Check formatting
+        uses: creyD/prettier_action@v4.2
+        with:
+          prettier_options: --write **/*.{ts,md,js,json,yml,yaml}
+          dry: true

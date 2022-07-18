@@ -1,0 +1,19 @@
+{
+  "name": "@slimevr/common",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "lint": "eslint src/**/*.ts",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "@slimevr/eslint-config": "*",
+    "@slimevr/tsconfig": "*",
+    "@types/node": "17.0.45",
+    "eslint": "8.20.0",
+    "typescript": "4.7.4"
+  }
+}

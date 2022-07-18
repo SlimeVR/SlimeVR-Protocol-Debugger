@@ -1,8 +1,15 @@
 {
   "tabWidth": 2,
   "useTabs": false,
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "vueIndentScriptAndStyle": false,
   "singleQuote": true,
   "semi": true,
-  "printWidth": 150,
+  "printWidth": 120,
   "trailingComma": "none"
 }

@@ -1,0 +1,9 @@
+{
+  "extends": "@slimevr/tsconfig/node.json",
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "target": "ES2022",
+    "outDir": "dist"
+  }
+}
